@@ -13,6 +13,9 @@
 		91968629256832F000FCBC34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91968628256832F000FCBC34 /* Preview Assets.xcassets */; };
 		91968634256832F000FCBC34 /* Text_Adventure_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91968633256832F000FCBC34 /* Text_Adventure_AppTests.swift */; };
 		9196863F256832F000FCBC34 /* Text_Adventure_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196863E256832F000FCBC34 /* Text_Adventure_AppUITests.swift */; };
+		919686542568405200FCBC34 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919686532568405200FCBC34 /* Model.swift */; };
+		91E2E337256B41860067C269 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E2E336256B41860067C269 /* Options.swift */; };
+		91E2E343256B44F80067C269 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E2E342256B44F80067C269 /* TextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		9196863A256832F000FCBC34 /* Text Adventure AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Text Adventure AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9196863E256832F000FCBC34 /* Text_Adventure_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_Adventure_AppUITests.swift; sourceTree = "<group>"; };
 		91968640256832F000FCBC34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		919686532568405200FCBC34 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		91E2E336256B41860067C269 /* Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
+		91E2E342256B44F80067C269 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +101,10 @@
 		91968620256832ED00FCBC34 /* Text Adventure App */ = {
 			isa = PBXGroup;
 			children = (
+				91E2E341256B44DF0067C269 /* View */,
+				91E2E33B256B44980067C269 /* Logic */,
+				91E2E335256B41750067C269 /* Data */,
+				919686522568404400FCBC34 /* Model */,
 				91968621256832ED00FCBC34 /* Text_Adventure_AppApp.swift */,
 				91968623256832ED00FCBC34 /* ContentView.swift */,
 				91968625256832F000FCBC34 /* Assets.xcassets */,
@@ -128,6 +138,37 @@
 				91968640256832F000FCBC34 /* Info.plist */,
 			);
 			path = "Text Adventure AppUITests";
+			sourceTree = "<group>";
+		};
+		919686522568404400FCBC34 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				919686532568405200FCBC34 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		91E2E335256B41750067C269 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				91E2E336256B41860067C269 /* Options.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		91E2E33B256B44980067C269 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		91E2E341256B44DF0067C269 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				91E2E342256B44F80067C269 /* TextView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +300,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91E2E337256B41860067C269 /* Options.swift in Sources */,
 				91968624256832ED00FCBC34 /* ContentView.swift in Sources */,
+				91E2E343256B44F80067C269 /* TextView.swift in Sources */,
+				919686542568405200FCBC34 /* Model.swift in Sources */,
 				91968622256832ED00FCBC34 /* Text_Adventure_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
